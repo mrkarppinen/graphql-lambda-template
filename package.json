@@ -1,0 +1,23 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-lambda": "^2.0.0-xrc.11",
+    "graphql": "^14.0.2",
+    "serverless": "^1.32.0",
+    "serverless-dynamodb-local": "^0.2.30",
+    "sinon": "^7.2.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "serverless-offline": "^3.25.17"
+  }
+}
